@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>MOVIE WEBSITE</title>
+  </head>
+  <body>
+    <!--! navbar start -->
+    <div class="navbar">
+      <div class="navbar-wrapper">
+        <div class="logo-wrapper">
+          <h1 class="logo">LOGO</h1>
+        </div>
+        <div class="menu-container">
+          <ul class="menu-list">
+            <li class="menu-list-item active">Ana Sayfa</li>
+            <li class="menu-list-item">Filmler</li>
+            <li class="menu-list-item">Diziler</li>
+            <li class="menu-list-item">Listem</li>
+            <li class="menu-list-item">Popüler</li>
+          </ul>
+        </div>
+        <div class="profil-container">
+          <img class="profile-picture" src="profile.jpg" alt="" />
+          <div class="profile-text-container">
+            <span class="profile-text">Hesabım</span>
+            <i class="fa-sharp fa-solid fa-caret-down"></i>
+          </div>
+          <div class="toggle">
+            <i class="fa-solid fa-moon toggle-icon"></i>
+            <i class="fa-solid fa-sun toggle-icon"></i>
+            <div class="toggle-ball"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--! navbar end -->
+
+    <!--! sidebar start -->
+    <div class="sidebar">
+      <i class="fas fa-search"></i>
+      <i class="fas fa-house"></i>
+      <i class="fas fa-people-arrows"></i>
+      <i class="fas fa-hourglass"></i>
+      <i class="fas fa-cart-plus"></i>
+      <i class="fas fa-bookmark"></i>
+      <i class="fa-brands fa-playstation"></i>
+    </div>
+    <!--!sidebar end -->
+    <!--! content start -->
+
+    <div class="container">
+      <!--! featured content start -->
+      <div class="content-wrapper">
+        <div class="featured-content">
+          <img class="featured-title" src="spiderman-title.png" alt="" />
+          <p class="featured-desc">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae
+            provident voluptatem quos veritatis nobis blanditiis ipsum iusto
+            illum consectetur! Eos rerum in aperiam nihil enim expedita iste
+            voluptate eius consequuntur.
+          </p>
+          <div class="featured-buttons">
+            <button class="play-button">
+              <i class="fas fa-play-circle"></i>
+              OYNAT
+            </button>
+            <button class="info-button">
+              <i class="fas fa-circle-info"></i>
+              Daha Fazla Bilgi
+            </button>
+          </div>
+        </div>
+      </div>
+      <!--! featured content end  -->
+
+      <!-- filter start -->
+      <div class="movie-list-filter">
+        <select>
+          <option>Aksiyon</option>
+          <option>Animasyon</option>
+          <option>Belgesel</option>
+          <option>Komedi</option>
+          <option>Bilim-Kurgu</option>
+        </select>
+      </div>
+      <!-- filter end -->
+      <!--! movie-list start -->
+      <div class="movie-list-container">
+        <h1 class="movie-list-title">Popüler</h1>
+        <div class="movie-list-wrapper">
+          <ul class="movie-list">
+            <li class="movie-item">
+              <img class="movie-item-img" src="f1.jpg" alt="">
+              <div class="movie-item-info">
+                <span class="movie-item-title">SPIDER-MAN</span>
+                <div class="movie-item-buttons">
+                  <i class="fas fa-play "></i>
+                  <i class="fas fa-thumbs-up "></i>
+                  <i class="fas fa-thumbs-down "></i>
+                  <i class="fas fa-plus-circle "></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="f2.jpg" alt="">
+              <div class="movie-item-info">
+                <span class="movie-item-title">HULK</span>
+                <div class="movie-item-buttons">
+                  <i class="fas fa-play "></i>
+                  <i class="fas fa-thumbs-up "></i>
+                  <i class="fas fa-thumbs-down "></i>
+                  <i class="fas fa-plus-circle "></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="f3.jpg" alt="">
+              <div class="movie-item-info">
+                <span class="movie-item-title">G.O.R.A</span>
+                <div class="movie-item-buttons">
+                  <i class="fas fa-play "></i>
+                  <i class="fas fa-thumbs-up "></i>
+                  <i class="fas fa-thumbs-down "></i>
+                  <i class="fas fa-plus-circle "></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="f4.jpg" alt="">
+              <div class="movie-item-info">
+                <span class="movie-item-title">DAREDAVIL</span>
+                <div class="movie-item-buttons">
+                  <i class="fas fa-play "></i>
+                  <i class="fas fa-thumbs-up "></i>
+                  <i class="fas fa-thumbs-down "></i>
+                  <i class="fas fa-plus-circle "></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="f5.jpg" alt="">
+              <div class="movie-item-info">
+                <span class="movie-item-title">HOBBIT</span>
+                <div class="movie-item-buttons">
+                  <i class="fas fa-play "></i>
+                  <i class="fas fa-thumbs-up "></i>
+                  <i class="fas fa-thumbs-down "></i>
+                  <i class="fas fa-plus-circle "></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="f6.jpg" alt="">
+              <div class="movie-item-info">
+                <span class="movie-item-title">A.R.O.G</span>
+                <div class="movie-item-buttons">
+                  <i class="fas fa-play "></i>
+                  <i class="fas fa-thumbs-up "></i>
+                  <i class="fas fa-thumbs-down "></i>
+                  <i class="fas fa-plus-circle "></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="f7.jpg" alt="">
+              <div class="movie-item-info">
+                <span class="movie-item-title">DARK</span>
+                <div class="movie-item-buttons">
+                  <i class="fas fa-play "></i>
+                  <i class="fas fa-thumbs-up "></i>
+                  <i class="fas fa-thumbs-down "></i>
+                  <i class="fas fa-plus-circle "></i>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <i class="fas fa-chevron-right arrow"></i>
+        </div>
+      </div>
+      <div class="movie-list-container">
+        <h1 class="movie-list-title">Gündemdekiler</h1>
+        <div class="movie-list-wrapper">
+          <ul class="movie-list">
+            <li class="movie-item">
+              <img class="movie-item-img" src="f6.jpg" alt="">
+              <div class="movie-item-info">
+                <span class="movie-item-title">A.R.O.G</span>
+                <div class="movie-item-buttons">
+                  <i class="fas fa-play "></i>
+                  <i class="fas fa-thumbs-up "></i>
+                  <i class="fas fa-thumbs-down "></i>
+                  <i class="fas fa-plus-circle "></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="f7.jpg" alt="">
+              <div class="movie-item-info">
+                <span class="movie-item-title">DARK</span>
+                <div class="movie-item-buttons">
+                  <i class="fas fa-play "></i>
+                  <i class="fas fa-thumbs-up "></i>
+                  <i class="fas fa-thumbs-down "></i>
+                  <i class="fas fa-plus-circle "></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="f5.jpg" alt="">
+              <div class="movie-item-info">
+                <span class="movie-item-title">HOBBIT</span>
+                <div class="movie-item-buttons">
+                  <i class="fas fa-play "></i>
+                  <i class="fas fa-thumbs-up "></i>
+                  <i class="fas fa-thumbs-down "></i>
+                  <i class="fas fa-plus-circle "></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="f3.jpg" alt="">
+              <div class="movie-item-info">
+                <span class="movie-item-title">G.O.R.A</span>
+                <div class="movie-item-buttons">
+                  <i class="fas fa-play "></i>
+                  <i class="fas fa-thumbs-up "></i>
+                  <i class="fas fa-thumbs-down "></i>
+                  <i class="fas fa-plus-circle "></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="f2.jpg" alt="">
+              <div class="movie-item-info">
+                <span class="movie-item-title">HULK</span>
+                <div class="movie-item-buttons">
+                  <i class="fas fa-play "></i>
+                  <i class="fas fa-thumbs-up "></i>
+                  <i class="fas fa-thumbs-down "></i>
+                  <i class="fas fa-plus-circle "></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="f1.jpg" alt="">
+              <div class="movie-item-info">
+                <span class="movie-item-title">SPIDER-MAN</span>
+                <div class="movie-item-buttons">
+                  <i class="fas fa-play "></i>
+                  <i class="fas fa-thumbs-up "></i>
+                  <i class="fas fa-thumbs-down "></i>
+                  <i class="fas fa-plus-circle "></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="f4.jpg" alt="">
+              <div class="movie-item-info">
+                <span class="movie-item-title">DAREDAVIL</span>
+                <div class="movie-item-buttons">
+                  <i class="fas fa-play "></i>
+                  <i class="fas fa-thumbs-up "></i>
+                  <i class="fas fa-thumbs-down "></i>
+                  <i class="fas fa-plus-circle "></i>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <i class="fas fa-chevron-right arrow"></i>
+        </div>
+      </div>
+      <div class="movie-list-container">
+        <h1 class="movie-list-title">Yeni Çıkanlar</h1>
+        <div class="movie-list-wrapper">
+          <ul class="movie-list">
+            <li class="movie-item">
+              <img class="movie-item-img" src="f4.jpg" alt="">
+              <div class="movie-item-info">
+                <span class="movie-item-title">DAREDAVIL</span>
+                <div class="movie-item-buttons">
+                  <i class="fas fa-play "></i>
+                  <i class="fas fa-thumbs-up "></i>
+                  <i class="fas fa-thumbs-down "></i>
+                  <i class="fas fa-plus-circle "></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="f1.jpg" alt="">
+              <div class="movie-item-info">
+                <span class="movie-item-title">SPIDER-MAN</span>
+                <div class="movie-item-buttons">
+                  <i class="fas fa-play "></i>
+                  <i class="fas fa-thumbs-up "></i>
+                  <i class="fas fa-thumbs-down "></i>
+                  <i class="fas fa-plus-circle "></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="f2.jpg" alt="">
+              <div class="movie-item-info">
+                <span class="movie-item-title">HULK</span>
+                <div class="movie-item-buttons">
+                  <i class="fas fa-play "></i>
+                  <i class="fas fa-thumbs-up "></i>
+                  <i class="fas fa-thumbs-down "></i>
+                  <i class="fas fa-plus-circle "></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="f3.jpg" alt="">
+              <div class="movie-item-info">
+                <span class="movie-item-title">G.O.R.A</span>
+                <div class="movie-item-buttons">
+                  <i class="fas fa-play "></i>
+                  <i class="fas fa-thumbs-up "></i>
+                  <i class="fas fa-thumbs-down "></i>
+                  <i class="fas fa-plus-circle "></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="f5.jpg" alt="">
+              <div class="movie-item-info">
+                <span class="movie-item-title">HOBBIT</span>
+                <div class="movie-item-buttons">
+                  <i class="fas fa-play "></i>
+                  <i class="fas fa-thumbs-up "></i>
+                  <i class="fas fa-thumbs-down "></i>
+                  <i class="fas fa-plus-circle "></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="f6.jpg" alt="">
+              <div class="movie-item-info">
+                <span class="movie-item-title">A.R.O.G</span>
+                <div class="movie-item-buttons">
+                  <i class="fas fa-play "></i>
+                  <i class="fas fa-thumbs-up "></i>
+                  <i class="fas fa-thumbs-down "></i>
+                  <i class="fas fa-plus-circle "></i>
+                </div>
+              </div>
+            </li>
+            <li class="movie-item">
+              <img class="movie-item-img" src="f7.jpg" alt="">
+              <div class="movie-item-info">
+                <span class="movie-item-title">DARK</span>
+                <div class="movie-item-buttons">
+                  <i class="fas fa-play "></i>
+                  <i class="fas fa-thumbs-up "></i>
+                  <i class="fas fa-thumbs-down "></i>
+                  <i class="fas fa-plus-circle "></i>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <i class="fas fa-chevron-right arrow"></i>
+        </div>
+      </div>
+      <!--! movie-list end -->
+    </div>
+    <div class="credit">
+      created by <span>GÖKHAN MERT </span> all rigths reserved
+    </div>
+    <!--! content end  -->
+    <script src="app.js"></script>
+  </body>
+</html>
